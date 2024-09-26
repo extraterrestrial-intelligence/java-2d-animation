@@ -105,7 +105,7 @@ public class BranchingTreeApp extends JPanel {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Branching Tree and Seesaw Animation");
+        JFrame frame = new JFrame("Computer Graphics 2D Animation with Java");
         BranchingTreeApp treeApp = new BranchingTreeApp();
 
         // Resizable window

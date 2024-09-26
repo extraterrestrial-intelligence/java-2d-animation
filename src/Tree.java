@@ -17,6 +17,8 @@ public class Tree {
             drawTree(g2d, level - 2, end, angle + 45 + randomizeAngle(), length * 0.40 * randomizeLen());
     }
 
+    //drawing leaves
+
     private Point drawLine(Graphics2D g2d, Point start, double direction, double length) {
         double dir_rad = Math.toRadians(direction);
         int endX = (int) (start.x + length * Math.sin(dir_rad));
